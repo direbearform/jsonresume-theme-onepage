@@ -1,5 +1,6 @@
 var fs = require("fs");
 var Handlebars = require("handlebars");
+Handlebars.registerHelper('dateFormat', require('handlebars-dateformat'));
 
 COURSES_COLUMNS = 3;
 
