@@ -19,6 +19,9 @@ li {
 a {
   text-decoration: none;
 }
+a:link {
+  border-bottom: 1px solid
+}
 
 #resume {
   margin: 0 auto;
